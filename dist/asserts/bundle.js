@@ -16,7 +16,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles */ \"./styles.js\");\n\n\nconst header = document.querySelector(\"header\");\n\nconst helloWithName = (name) => {\n    const htmlTemplate = `\n        <h1>Hello there, ${name}!!\n    `;\n\n    header.innerHTML = htmlTemplate;\n};\n\nhelloWithName(\"Ironman\");\n(0,_styles__WEBPACK_IMPORTED_MODULE_0__.stylesToBody)();\n(0,_styles__WEBPACK_IMPORTED_MODULE_0__.stylesToHeader)();\n\n//# sourceURL=webpack://babel-webpack/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles */ \"./styles.js\");\n\nvar header = document.querySelector(\"header\");\nvar helloWithName = function helloWithName(name) {\n  var htmlTemplate = \"\\n        <h1>Hello there, \".concat(name, \"!!\\n    \");\n  header.innerHTML = htmlTemplate;\n};\nhelloWithName(\"Ironman\");\n(0,_styles__WEBPACK_IMPORTED_MODULE_0__.stylesToBody)();\n(0,_styles__WEBPACK_IMPORTED_MODULE_0__.stylesToHeader)();\n\n//# sourceURL=webpack://babel-webpack/./index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"stylesToBody\": () => (/* binding */ stylesToBody),\n/* harmony export */   \"stylesToHeader\": () => (/* binding */ stylesToHeader)\n/* harmony export */ });\nconst body = document.querySelector(\"body\");\nconst header = document.querySelector(\"header\");\n\nconst stylesToBody = () => {\n    body.style.background = \"black\";\n};\n\nconst stylesToHeader = () => {\n    header.style.color = \"white\";\n    header.style.textAlign = \"center\";\n    header.style.paddingTop = \"40vh\";\n};\n\n\n\n//# sourceURL=webpack://babel-webpack/./styles.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"stylesToBody\": () => (/* binding */ stylesToBody),\n/* harmony export */   \"stylesToHeader\": () => (/* binding */ stylesToHeader)\n/* harmony export */ });\nvar body = document.querySelector(\"body\");\nvar header = document.querySelector(\"header\");\nvar stylesToBody = function stylesToBody() {\n  body.style.background = \"black\";\n};\nvar stylesToHeader = function stylesToHeader() {\n  header.style.color = \"white\";\n  header.style.textAlign = \"center\";\n  header.style.paddingTop = \"40vh\";\n};\n\n\n//# sourceURL=webpack://babel-webpack/./styles.js?");
 
 /***/ })
 
