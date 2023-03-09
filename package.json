@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "node_modules/.bin/babel index.js -w -o dist/bundle.js"
+    "babel": "node_modules/.bin/babel index.js -w -o dist/bundle.js",
+    "webpack": "node_modules/.bin/webpack"
   },
   "keywords": [],
   "author": "",
