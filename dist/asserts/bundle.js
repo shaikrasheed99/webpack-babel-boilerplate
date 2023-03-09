@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector("body"),o=document.querySelector("header");document.querySelector("header").innerHTML="\n        <h1>Hello there, Ironman!!\n    ",e.style.background="black",o.style.color="white",o.style.textAlign="center",o.style.paddingTop="40vh",console.log("hello"),console.log("hello")})();
