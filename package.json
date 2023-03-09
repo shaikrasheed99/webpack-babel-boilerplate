@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "node_modules/.bin/babel index.js -w -o dist/asserts/bundle.js",
     "build": "node_modules/.bin/webpack --mode production",
     "dev-server": "node_modules/.bin/webpack -w --mode development"
   },
